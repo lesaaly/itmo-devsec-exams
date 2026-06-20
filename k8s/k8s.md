@@ -10,8 +10,8 @@
 |------|--------|
 | `k8s/namespace.yaml` | Namespace `exam-k8s` |
 | `k8s/configmap.yaml` | ConfigMap `exam-web-configmap` с `index.html` |
-| `k8s/deployment.yaml` | Deployment `exam-web` (2 реплики, probes, resources) |
-| `k8s/service.yaml` | Service `exam-web-service` (ClusterIP, `8080 -> 80`) |
+| `k8s/deployment.yaml` | Deployment `exam-web` |
+| `k8s/service.yaml` | Service `exam-web-service` |
 
 ---
 
@@ -39,7 +39,7 @@ kubectl apply -f k8s/namespace.yaml
 kubectl apply -f k8s/configmap.yaml
 ```
 
-Скриншоты (покажите `ConfigMap` и содержимое `index.html`):
+Скриншот:
 
 ![ConfigMap exam-web-configmap](./images/2.png)
 
