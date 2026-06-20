@@ -6,12 +6,12 @@
 
 ## Манифесты
 
-| Файл | Объект |
-|------|--------|
-| `k8s/namespace.yaml` | Namespace `exam-k8s` |
-| `k8s/configmap.yaml` | ConfigMap `exam-web-configmap` с `index.html` |
-| `k8s/deployment.yaml` | Deployment `exam-web` |
-| `k8s/service.yaml` | Service `exam-web-service` |
+| Файл                  | Объект                                        |
+| --------------------- | --------------------------------------------- |
+| `k8s/namespace.yaml`  | Namespace `exam-k8s`                          |
+| `k8s/configmap.yaml`  | ConfigMap `exam-web-configmap` с `index.html` |
+| `k8s/deployment.yaml` | Deployment `exam-web`                         |
+| `k8s/service.yaml`    | Service `exam-web-service`                    |
 
 ---
 
