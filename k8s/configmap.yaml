@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: exam-web-configmap
+  namespace: exam-k8s
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html lang="ru">
+    <head>
+      <meta charset="UTF-8">
+      <title>exam-web</title>
+    </head>
+    <body>
+      <h1>Лесина Алёна, группа М4105</h1>
+      <p>Версия приложения: v1</p>
+    </body>
+    </html>
